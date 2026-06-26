@@ -11,6 +11,7 @@ on:
         type: boolean
         default: false
 
+
 permissions:
   contents: read
   pages: write
@@ -45,7 +46,7 @@ jobs:
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build/'
+          path: 'build/' # Matches the configuration folder from svelte.config.js
 
       - name: Deploy to GitHub Pages
         id: deployment
