@@ -3,14 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: 'main'
-  workflow_dispatch:
-    inputs:
-      force_deploy:
-        description: 'Force deployment?'
-        required: true
-        type: boolean
-        default: false
-
 
 permissions:
   contents: read
