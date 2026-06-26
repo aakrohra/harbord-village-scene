@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from '$app/state';
     import data from '$lib/data/data.json';
+    import { base } from '$app/paths';
     import ReleaseCard from '$lib/components/ReleaseCard.svelte';
 
     const slug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
@@ -11,7 +12,7 @@
 </script>
 
 <h1>
-    <a href="/">harbord village 2026</a> - {#if artist}{artist.name}{:else}Artist not found{/if}
+    <a href="{base}/">harbord village 2026</a> - {#if artist}{artist.name}{:else}Artist not found{/if}
 </h1>
 
 {#if artist}

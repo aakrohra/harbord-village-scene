@@ -1,6 +1,7 @@
 <script lang="ts">
     import data from '$lib/data/data.json';
     import ReleaseCard from '$lib/components/ReleaseCard.svelte';
+    import { base } from '$app/paths';
 
     const slug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
@@ -12,7 +13,7 @@
 <h1>harbord village 2026</h1>
 
 {#each [...data].sort((a, b) => a.name.localeCompare(b.name)) as artist, i (slug(artist.name))}
-    <a href="/artists/{slug(artist.name)}">{artist.name}</a>{#if i < data.length - 1},&nbsp;{/if}
+    <a href="{base}/artists/{slug(artist.name)}">{artist.name}</a>{#if i < data.length - 1},&nbsp;{/if}
 {/each}
 
 <div class="grid">
