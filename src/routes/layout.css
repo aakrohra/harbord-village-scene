@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
