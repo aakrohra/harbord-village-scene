@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     const { title, type, year, cover, href, showInfo = true, target = '_self' } = $props<{
         title: string;
         type: string;
@@ -12,7 +13,7 @@
 
 <a {href} {target} class="card">
     {#if cover}
-        <img src={cover} alt={title} />
+        <img src={`${base}${cover}`} alt={title} />
     {:else}
         <div class="placeholder">{title}</div>
     {/if}

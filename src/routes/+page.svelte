@@ -23,7 +23,7 @@
       type={release.type}
       year={release.year}
       cover={release.cover}
-      href="/artists/{slug(release.artist.name)}"
+      href="{base}/artists/{slug(release.artist.name)}"
       showInfo={false}
     />
   {/each}

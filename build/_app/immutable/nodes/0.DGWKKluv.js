@@ -1,0 +1,1 @@
+import{E as e,c as t,g as n,h as r,m as i,u as a}from"../chunks/Ds0XlAgA.js";import"../chunks/xihTtKlq.js";var o=n(`<link rel="icon"/>`);function s(n,s){var c=r();t(`12qhfyh`,e=>{i(e,o())}),a(e(c),()=>s.children),i(n,c)}export{s as component};
