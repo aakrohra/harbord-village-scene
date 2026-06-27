@@ -23,11 +23,33 @@
     {#if artist['years-active']}
         <p>{String(artist['years-active']).includes('-') ? 'Years active' : 'Year active'}: {artist['years-active']}</p>
     {/if}
-    {#if artist.members && artist.members.length > 0}
+
+    {#if artist['past-names'] && artist['past-names'].length > 0}
+        <p>Past names: 
+            {#each artist['past-names'] as pastName, i (pastName)}
+                <span>{pastName.name} ({pastName['years-active']})</span>
+                {#if i < artist['past-names'].length - 1},&nbsp;{/if}
+            {/each}
+        </p>
+    {/if}
+
+    {#if artist["current-members"] && artist["current-members"].length > 0}
         <p>Members: 
-            {#each artist.members as memberSlug, i (memberSlug)}
-                {@const person = data.people.find((p) => p.slug === memberSlug)}
-                <a href="{base}/people/{memberSlug}">{person?.name ?? memberSlug}</a>{#if i < artist.members.length - 1},&nbsp;{/if}
+            {#each artist["current-members"] as member, i (member.slug)}
+                {@const person = data.people.find((p) => p.slug === member.slug)}
+                <a href="{base}/people/{member.slug}">{person?.name ?? member.slug}</a>
+                ({member.instruments.join(', ')}){#if i < artist['current-members'].length - 1},&nbsp;{/if}
+            {/each}
+        </p>
+    {/if}
+
+    {#if artist['past-members'] && artist['past-members'].length > 0}
+        <p>Past members:
+            {#each artist['past-members'] as member, i (member.slug)}
+                {@const person = data.people.find((p) => p.slug === member.slug)}
+                <a href="{base}/people/{member.slug}">{person?.name ?? member.slug}</a>
+                ({member.instruments.join(', ')}{#if member['years-active']}, {member['years-active']}{/if})
+                {#if i < artist['past-members'].length - 1},&nbsp;{/if}
             {/each}
         </p>
     {/if}

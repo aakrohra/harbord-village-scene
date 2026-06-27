@@ -2,7 +2,40 @@
     "artists": [
         {
             "name": "In Framings",
-            "members": ["aakaash-rohra", "valentina-gheorghe", "harjosh-virdi", "jacob-friesen"],
+            "past-names": [{
+                "name": "rice and pork",
+                "years-active": "2022-2024"
+            }],
+            "current-members": [
+                {
+                    "slug": "aakaash-rohra",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "valentina-gheorghe",
+                    "instruments": ["bass", "vocals"]
+                },
+                {
+                    "slug": "harjosh-virdi",
+                    "instruments": ["guitar"]
+                },
+                {
+                    "slug": "jacob-friesen",
+                    "instruments": ["drums"]
+                }
+            ],
+            "past-members": [
+                {
+                    "slug": "edward-krauland",
+                    "instruments": ["drums"],
+                    "years-active": "2026"
+                },
+                {
+                    "slug": "liam-huynh",
+                    "instruments": ["drums"],
+                    "years-active": "2022-2025"
+                }
+            ],
             "years-active": "2024-present",
             "genre": "Emo",
             "links": {
@@ -35,7 +68,31 @@
         },
         {
             "name": "Derwin",
-            "members": ["aakaash-rohra", "dominic-le", "edward-krauland", "michael-harhay"],
+            "current-members": [
+                {
+                    "slug": "dominic-le",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "aakaash-rohra",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "edward-krauland",
+                    "instruments": ["drums"]
+                },
+                {
+                    "slug": "michael-harhay",
+                    "instruments": ["bass"]
+                }
+            ],
+            "past-members": [
+                {
+                    "slug": "arps",
+                    "instruments": ["bass"],
+                    "years-active": "2023"
+                }
+            ],
             "years-active": "2023-2025",
             "genre": "Emo/Garage Rock",
             "links": {
@@ -53,7 +110,12 @@
         },
         {
             "name": "Robert Street Demos",
-            "members": ["aakaash-rohra"],
+            "current-members": [
+                {
+                    "slug": "aakaash-rohra",
+                    "instruments": ["guitar", "bass", "drums", "vocals", "harmonica"]
+                }
+            ],
             "years-active": "2026-present",
             "genre": "Indie Folk",
             "links": {
@@ -79,7 +141,28 @@
         },
         {
             "name": "Death Punchies",
-            "members": ["thomas-chan", "jonah-page", "matthew-pi", "roberto-castillo", "vincent-crawford"],
+            "current-members": [
+                {
+                    "slug": "thomas-chan",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "jonah-page",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "matthew-pi",
+                    "instruments": ["bass"]
+                },
+                {
+                    "slug": "roberto-castillo",
+                    "instruments": ["keys"]
+                },
+                {
+                    "slug": "vincent-crawford",
+                    "instruments": ["drums"]
+                }
+            ],
             "years-active": "2013-present",
             "genre": "Pop Rock/Slacker Rock",
             "links": {
@@ -118,15 +201,71 @@
             ]
         },
         {
-            "name": "mache (Tiger Tag)",
-            "members": ["ethan-seet", "aakaash-rohra", "ben-robinson", "callan-robinson", "lee-rosensweet", "mark-nell", "sean-parker"],
+            "name": "mache",
+            "past-names": [{
+                "name": "Tiger Tag",
+                "years-active": "2023-2025"
+            }],
+            "current-members": [
+                {
+                    "slug": "ethan-seet",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "aakaash-rohra",
+                    "instruments": ["guitar"]
+                },
+                {
+                    "slug": "ben-robinson",
+                    "instruments": ["drums"]
+                }
+            ],
+            "past-members": [
+                {
+                    "slug": "callan-robinson",
+                    "instruments": ["guitar"],
+                    "years-active": "2024-2025"
+                },
+                {
+                    "slug": "lee-rosensweet",
+                    "instruments": ["bass"],
+                    "years-active": "2024-2025"
+                },
+                {
+                    "slug": "mark-nell",
+                    "instruments": ["bass"],
+                    "years-active": "2025-2026"
+                },
+                {
+                    "slug": "sean-parker",
+                    "instruments": ["bass"],
+                    "years-active": "2024"
+                }
+            ],
             "years-active": "2024-2026",
             "genre": "New Wave/Dance Punk/Indie Rock",
             "releases": []
         },
         {
             "name": "bit depth",
-            "members": ["arps", "dominic-le", "michael-harhay", "edward-krauland"],
+            "current-members": [
+                {
+                    "slug": "arps",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "dominic-le",
+                    "instruments": ["guitar"]
+                },
+                {
+                    "slug": "michael-harhay",
+                    "instruments": ["bass"]
+                },
+                {
+                    "slug": "edward-krauland",
+                    "instruments": ["drums"]
+                }
+            ],
             "genre": "Indie Rock/Emo",
             "links": {
                 "Bandcamp": "https://bitdepth.bandcamp.com/",
@@ -165,7 +304,28 @@
         },
         {
             "name": "The Moonlight Circus",
-            "members": ["marcus-aiello", "kalan-bridgeman", "zachary-johnston", "damon-wilson", "holden-swartz"],
+            "current-members": [
+                {
+                    "slug": "marcus-aiello",
+                    "instruments": ["bass", "vocals"]
+                },
+                {
+                    "slug": "kalan-bridgeman",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "zachary-johnston",
+                    "instruments": ["guitar", "keys", "vocals"]
+                },
+                {
+                    "slug": "damon-wilson",
+                    "instruments": ["drums"]
+                },
+                {
+                    "slug": "holden-swartz",
+                    "instruments": ["guitar", "keys"]
+                }
+            ],
             "years-active": "2023-present",
             "genre": "Psych Rock/Art Rock",
             "links": {
@@ -226,7 +386,12 @@
         },
         {
             "name": "prom night massacre",
-            "members": ["vincent-crawford"],
+            "current-members": [
+                {
+                    "slug": "vincent-crawford",
+                    "instruments": ["all"]
+                }
+            ],
             "genre": "Bedroom Pop",
             "links": {
                 "Bandcamp": "https://promnightmassacre.bandcamp.com/",
@@ -265,7 +430,12 @@
         },
         {
             "name": "Takoma",
-            "members": ["edward-krauland"],
+            "current-members": [
+                {
+                    "slug": "edward-krauland",
+                    "instruments": ["guitar", "vocals", "keys", "drums", "bass"]
+                }
+            ],
             "genre": "Shoegaze",
             "links": {
                 "Bandcamp": "https://takomasound.bandcamp.com/",
@@ -283,21 +453,62 @@
         },
         {
             "name": "The Common Turns",
-            "members": ["marcus-aiello", "ben-robinson", "jonah-page", "mark-nell"],
+            "current-members": [
+                {
+                    "slug": "marcus-aiello",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "ben-robinson",
+                    "instruments": ["drums", "vocals"]
+                },
+                {
+                    "slug": "jonah-page",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "mark-nell",
+                    "instruments": ["bass"]
+                }
+            ],
             "years-active": "2026-present",
             "genre": "Pop Rock/Doo-wop",
             "releases": []
         },
         {
             "name": "Buckley",
-            "members": ["jonah-page"],
+            "current-members": [
+                {
+                    "slug": "jonah-page",
+                    "instruments": ["all"]
+                }
+            ],
             "genre": "Hyperpop",
             "releases": []
         },
         {
             "name": "Chirico",
-            "members": ["marcus-aiello", "jonah-page", "hayden-zahary"],
-            "years-active": "2025",
+            "past-names": [
+                {
+                    "name": "Isn't Anything",
+                    "years-active": "2024"
+                }
+            ],
+            "current-members": [
+                {
+                    "slug": "marcus-aiello",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "jonah-page",
+                    "instruments": ["guitar", "vocals"]
+                },
+                {
+                    "slug": "hayden-zahary",
+                    "instruments": ["bass"]
+                }
+            ],
+            "years-active": "2024-2025",
             "genre": "Pop Rock",
             "links": {
                 "Instagram": "https://www.instagram.com/chiricogroup/"
@@ -306,7 +517,16 @@
         },
         {
             "name": "Corrados",
-            "members": ["ben-robinson", "callan-robinson"],
+            "current-members": [
+                {
+                    "slug": "ben-robinson",
+                    "instruments": ["guitar", "bass", "drums", "vocals"]
+                },
+                {
+                    "slug": "callan-robinson",
+                    "instruments": ["drums", "bass"]
+                }
+            ],
             "genre": "Twang",
             "links": {
                 "Instagram": "https://www.instagram.com/thecorradoss/"
@@ -315,7 +535,12 @@
         },
         {
             "name": "DJ Dinosaurus",
-            "members": ["dominic-le"],
+            "current-members": [
+                {
+                    "slug": "dominic-le",
+                    "instruments": ["guitar", "vocals"]
+                }
+            ],
             "genre": "Acoustic",
             "links": {
                 "Instagram": "https://www.instagram.com/tomatoreasoning/"
@@ -324,7 +549,12 @@
         },
         {
             "name": "Pickpocket",
-            "members": ["mark-nell"],
+            "current-members": [
+                {
+                    "slug": "mark-nell",
+                    "instruments": ["bass"]
+                }
+            ],
             "genre": "Math Rock/Indie Rock",
             "links": {
                 "Instagram": "https://www.instagram.com/pickpocket.band/"
@@ -333,7 +563,12 @@
         },
         {
             "name": "derma.crush",
-            "members": ["michael-harhay"],
+            "current-members": [
+                {
+                    "slug": "michael-harhay",
+                    "instruments": ["all"]
+                }
+            ],
             "years-active": "2026-present",
             "genre": "Electronic",
             "links": {
