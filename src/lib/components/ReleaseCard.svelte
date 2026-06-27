@@ -11,7 +11,7 @@
     }>();
 </script>
 
-<a {href} {target} class="card">
+<a {href} {target} title="{title} · {type} · {year}" class="card">
     {#if cover}
         <img src={`${base}${cover}`} alt={title} />
     {:else}
