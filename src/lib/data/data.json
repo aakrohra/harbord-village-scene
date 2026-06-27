@@ -165,7 +165,7 @@
         },
         {
             "name": "The Moonlight Circus",
-            "members": ["marcus-aiello", "kalan-bridgeman", "zachary-johnston", "damon-wilson"],
+            "members": ["marcus-aiello", "kalan-bridgeman", "zachary-johnston", "damon-wilson", "holden-swartz"],
             "years-active": "2023-present",
             "genre": "Psych Rock/Art Rock",
             "links": {
@@ -376,6 +376,7 @@
         { "name": "Zachary Johnston", "slug": "zachary-johnston" },
         { "name": "Damon Wilson", "slug": "damon-wilson" },
         { "name": "Hayden Zahary", "slug": "hayden-zahary" },
-        { "name": "Sachith Abayakoon", "slug": "sachith-abayakoon" }
+        { "name": "Sachith Abayakoon", "slug": "sachith-abayakoon" },
+        { "name": "Holden Swartz", "slug": "holden-swartz" }
     ]
 }
