@@ -3,6 +3,7 @@
         {
             "name": "In Framings",
             "members": ["aakaash-rohra", "valentina-gheorghe", "harjosh-virdi", "jacob-friesen"],
+            "years-active": "2024-present",
             "genre": "Emo",
             "links": {
                 "Bandcamp": "https://inframings.bandcamp.com/",
@@ -35,6 +36,7 @@
         {
             "name": "Derwin",
             "members": ["aakaash-rohra", "dominic-le", "edward-krauland", "michael-harhay"],
+            "years-active": "2023-2025",
             "genre": "Emo/Garage Rock",
             "links": {
                 "Instagram": "https://www.instagram.com/derwinsworld/"
@@ -52,6 +54,7 @@
         {
             "name": "Robert Street Demos",
             "members": ["aakaash-rohra"],
+            "years-active": "2026-present",
             "genre": "Indie Folk",
             "links": {
                 "Bandcamp": "https://robertstreetdemos.bandcamp.com/",
@@ -70,6 +73,7 @@
         {
             "name": "Death Punchies",
             "members": ["thomas-chan", "jonah-page", "matthew-pi", "roberto-castillo", "vincent-crawford"],
+            "years-active": "2013-present",
             "genre": "Pop Rock/Slacker Rock",
             "links": {
                 "Bandcamp": "https://mechayuri.bandcamp.com/",
@@ -109,6 +113,7 @@
         {
             "name": "mache (Tiger Tag)",
             "members": ["ethan-seet", "aakaash-rohra", "ben-robinson", "callan-robinson", "lee-rosensweet", "mark-nell", "sean-parker"],
+            "years-active": "2024-2026",
             "genre": "New Wave/Dance Punk/Indie Rock",
             "releases": []
         },
@@ -154,6 +159,7 @@
         {
             "name": "The Moonlight Circus",
             "members": ["marcus-aiello", "kalan-bridgeman", "zachary-johnston", "damon-wilson"],
+            "years-active": "2023-present",
             "genre": "Psych Rock/Art Rock",
             "links": {
                 "Bandcamp": "https://themoonlightcircus.bandcamp.com/",
@@ -271,6 +277,7 @@
         {
             "name": "The Common Turns",
             "members": ["marcus-aiello", "ben-robinson", "jonah-page", "mark-nell"],
+            "years-active": "2026-present",
             "genre": "Pop Rock/Doo-wop",
             "releases": []
         },
@@ -283,6 +290,7 @@
         {
             "name": "Chirico",
             "members": ["marcus-aiello", "jonah-page", "hayden-zahary"],
+            "years-active": "2025",
             "genre": "Pop Rock",
             "links": {
                 "Instagram": "https://www.instagram.com/chiricogroup/"

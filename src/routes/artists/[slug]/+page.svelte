@@ -16,7 +16,9 @@
 </h1>
 
 {#if artist}
-
+    {#if artist['years-active']}
+        <p>{String(artist['years-active']).includes('-') ? 'Years active' : 'Year active'}: {artist['years-active']}</p>
+    {/if}
     {#if artist.members && artist.members.length > 0}
         <p>Members: 
             {#each artist.members as memberSlug, i (memberSlug)}
