@@ -240,5 +240,22 @@
                 "bandcamp": "https://promnightmassacre.bandcamp.com/album/my-diary-2"
             }
         ]
+    },
+    {
+        "name": "Takoma",
+        "genre": "Shoegaze",
+        "links": {
+            "Bandcamp": "https://takomasound.bandcamp.com/",
+            "Instagram": "https://www.instagram.com/takomaband/"
+        },
+        "releases": [
+            {
+                "title": "The Sky and the Ground",
+                "type": "LP",
+                "year": 2026,
+                "cover": "/covers/takoma_the-sky-and-the-ground.jpg",
+                "bandcamp": "https://takomasound.bandcamp.com/album/the-sky-and-the-ground"
+            }
+        ]
     }
 ]
