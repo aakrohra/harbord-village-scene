@@ -62,6 +62,13 @@
             },
             "releases": [
                 {
+                    "title": "Sleepers",
+                    "type": "Single",
+                    "year": 2026,
+                    "cover": "/covers/robert-street-demos_sleepers.jpg",
+                    "bandcamp": "https://robertstreetdemos.bandcamp.com/track/sleepers"
+                },
+                {
                     "title": "Ornaments",
                     "type": "LP",
                     "year": 2026,

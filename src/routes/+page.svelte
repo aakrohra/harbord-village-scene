@@ -12,6 +12,8 @@
 
 <h1>harbord village 2026</h1>
 
+<p>The <span class="scene-name">harbord village music scene</span> of Toronto, Ontario as of 2026. Active since 2023. Contains {data.artists.length} artists and {data.people.length} people.</p>
+
 {#each [...data.artists].sort((a, b) => a.name.localeCompare(b.name)) as artist, i (slug(artist.name))}
     <a href="{base}/artists/{slug(artist.name)}">{artist.name}</a>{#if i < data.artists.length - 1},&nbsp;{/if}
 {/each}
@@ -37,6 +39,12 @@
 
 <style>
     h1 {
+        margin-bottom: 1rem;
+    }
+    .scene-name {
+        font-weight: 1000;
+    }
+    p {
         margin-bottom: 1rem;
     }
 </style>
