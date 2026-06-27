@@ -36,4 +36,14 @@
             {#if member?.instruments}({member.instruments.join(', ')}{#if !currentMember && pastMember?.['years-active']}, {pastMember['years-active']}{/if}){/if}
         </p>
     {/each}
+    {#if person.gif}
+        <img src={person.gif} alt="gif">
+    {/if}
 {/if}
+
+<style>
+    img {
+        width: 100px;
+        margin-top: 1.5rem;
+    }
+</style>

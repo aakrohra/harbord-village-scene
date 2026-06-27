@@ -587,8 +587,8 @@
         }
     ],
     "people": [
-        { "name": "Aakaash Rohra", "slug": "aakaash-rohra" },
-        { "name": "Valentina Gheorghe", "slug": "valentina-gheorghe" },
+        { "name": "Aakaash Rohra", "slug": "aakaash-rohra", "gif": "/gifs/aakaash-rohra.gif" },
+        { "name": "Valentina Gheorghe", "slug": "valentina-gheorghe" , "gif": "/gifs/valentina-gheorghe.gif" },
         { "name": "Dominic Le", "slug": "dominic-le" },
         { "name": "Edward Krauland", "slug": "edward-krauland" },
         { "name": "Michael Harhay", "slug": "michael-harhay" },
