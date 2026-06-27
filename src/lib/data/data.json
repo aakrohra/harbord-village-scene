@@ -323,6 +323,25 @@
                 "Instagram": "https://www.instagram.com/pickpocket.band/"
             },
             "releases": []
+        },
+        {
+            "name": "derma.crush",
+            "members": ["michael-harhay"],
+            "years-active": "2026-present",
+            "genre": "Electronic",
+            "links": {
+                "Bandcamp": "https://dermacrush.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/derma.crush/"
+            },
+            "releases": [
+                {
+                    "title": "north atlantic drift",
+                    "type": "EP",
+                    "year": 2026,
+                    "cover": "/covers/derma.crush_north-atlantic-drift.jpg",
+                    "bandcamp": "https://dermacrush.bandcamp.com/album/north-atlantic-drift"
+                }
+            ]
         }
     ],
     "people": [
