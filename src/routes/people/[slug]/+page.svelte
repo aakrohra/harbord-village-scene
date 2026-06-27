@@ -19,7 +19,7 @@
 </h1>
 
 {#if person}
-    {#each [...projects].sort((a, b) => a.name.localeCompare(b.name)) as artist, i (slug(artist.name))}
-        <a href="{base}/artists/{slug(artist.name)}">{artist.name}</a>{#if i < projects.length - 1},&nbsp;{/if}
+    {#each [...projects].sort((a, b) => a.name.localeCompare(b.name)) as artist (slug(artist.name))}
+        <p><a href="{base}/artists/{slug(artist.name)}">{artist.name}</a></p>
     {/each}
 {/if}
