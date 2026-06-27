@@ -15,7 +15,7 @@ export default defineConfig({
 				strict: true
 			}),
 			paths: {
-				base: process.argv.includes('dev') ? '' : '/harbord-village-scene'
+				base: ''
 			}
 		})
 	]
