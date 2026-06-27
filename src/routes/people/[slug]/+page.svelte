@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>{person ? `harbord village's ${person.name}` : 'Person not found'}</title>
+</svelte:head>
+
 <script lang="ts">
     import { page } from '$app/state';
     import data from '$lib/data/data.json';

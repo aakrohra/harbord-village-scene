@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>harbord village 2026</title>
+</svelte:head>
+
 <script lang="ts">
     import data from '$lib/data/data.json';
     import ReleaseCard from '$lib/components/ReleaseCard.svelte';
