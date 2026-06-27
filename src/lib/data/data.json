@@ -143,5 +143,102 @@
                 "bandcamp": "https://bitdepth.bandcamp.com/track/venison-single"
             }
         ]
+    },
+    {
+        "name": "The Moonlight Circus",
+        "genre": "Psych Rock/Art Rock",
+        "links": {
+            "Bandcamp": "https://themoonlightcircus.bandcamp.com/",
+            "Instagram": "https://www.instagram.com/themoonlightcircusband/"
+        },
+        "releases": [
+            {
+                "title": "The Boar Song EP",
+                "type": "EP",
+                "year": 2024,
+                "cover": "/covers/the-moonlight-circus_the-boar-song-ep.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/album/the-boar-song-ep"
+            },
+            {
+                "title": "The Boar Song",
+                "type": "Single",
+                "year": 2024,
+                "cover": "/covers/the-moonlight-circus_the-boar-song.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/the-boar-song"
+            },
+            {
+                "title": "Night Bus",
+                "type": "Single",
+                "year": 2025,
+                "cover": "/covers/the-moonlight-circus_night-bus.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/night-bus"
+            },
+            {
+                "title": "Under Moonlight",
+                "type": "LP",
+                "year": 2025,
+                "cover": "/covers/the-moonlight-circus_under-moonlight.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/album/under-moonlight"
+            },
+            {
+                "title": "Good Dream",
+                "type": "Single",
+                "year": 2025,
+                "cover": "/covers/the-moonlight-circus_good-dream.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/good-dream"
+            },
+            {
+                "title": "Crying",
+                "type": "Single",
+                "year": 2025,
+                "cover": "/covers/the-moonlight-circus_crying.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/crying-2"
+            },
+            {
+                "title": "Your Heart <3",
+                "type": "Single",
+                "year": 2026,
+                "cover": "/covers/the-moonlight-circus_your-heart.jpg",
+                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/your-heart-3"
+            }
+        ]
+    },
+    {
+        "name": "prom night massacre",
+        "genre": "Bedroom Pop",
+        "links": {
+            "Bandcamp": "https://promnightmassacre.bandcamp.com/",
+            "Instagram": "https://www.instagram.com/promnightmassacre/"
+        },
+        "releases": [
+            {
+                "title": "The virgin suicides",
+                "type": "Single",
+                "year": 2024,
+                "cover": "/covers/prom-night-massacre_the-virgin-suicides.jpg",
+                "bandcamp": "https://promnightmassacre.bandcamp.com/track/the-virgin-suicides"
+            },
+            {
+                "title": "l8ly",
+                "type": "EP",
+                "year": 2024,
+                "cover": "/covers/prom-night-massacre_l8ly.jpg",
+                "bandcamp": "https://promnightmassacre.bandcamp.com/album/l8ly"
+            },
+            {
+                "title": "I can't hold on to anything",
+                "type": "LP",
+                "year": 2025,
+                "cover": "/covers/prom-night-massacre_i-cant-hold-on-to-anything.jpg",
+                "bandcamp": "https://promnightmassacre.bandcamp.com/album/i-cant-hold-on-to-anything"
+            },
+            {
+                "title": "My diary 2",
+                "type": "LP",
+                "year": 2025,
+                "cover": "/covers/prom-night-massacre_my-diary-2.jpg",
+                "bandcamp": "https://promnightmassacre.bandcamp.com/album/my-diary-2"
+            }
+        ]
     }
 ]
