@@ -3,7 +3,7 @@
     import data from '$lib/data/data.json';
     import { base } from '$app/paths';
 
-    const slug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
+    import { slug } from '$lib/utils';
 
     const person = $derived(
         data.people.find((p) => p.slug === page.params.slug) ?? null

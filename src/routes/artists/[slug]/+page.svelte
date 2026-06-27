@@ -4,7 +4,7 @@
     import { base } from '$app/paths';
     import ReleaseCard from '$lib/components/ReleaseCard.svelte';
 
-    const slug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
+    import { slug } from '$lib/utils';
 
     const artist = $derived(
         data.artists.find((a) => slug(a.name) === page.params.slug) ?? null

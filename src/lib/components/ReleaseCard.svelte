@@ -48,7 +48,6 @@
 
     .title {
         margin: 0.4rem 0 0;
-        font-weight: 500;
     }
 
     .meta {
