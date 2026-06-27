@@ -7,7 +7,7 @@
     const slug = (name: string) => name.toLowerCase().replace(/\s+/g, '-');
 
     const artist = $derived(
-        data.find((a) => slug(a.name) === page.params.slug) ?? null
+        data.artists.find((a) => slug(a.name) === page.params.slug) ?? null
     );
 </script>
 
@@ -16,6 +16,16 @@
 </h1>
 
 {#if artist}
+
+    {#if artist.members && artist.members.length > 0}
+        <p>Members: 
+            {#each artist.members as memberSlug, i (memberSlug)}
+                {@const person = data.people.find((p) => p.slug === memberSlug)}
+                <a href="{base}/people/{memberSlug}">{person?.name ?? memberSlug}</a>{#if i < artist.members.length - 1},&nbsp;{/if}
+            {/each}
+        </p>
+    {/if}
+
     {#if artist.genre}
         <p class="genre">Genre: {artist.genre}</p>
     {/if}

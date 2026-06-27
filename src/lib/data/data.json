@@ -1,261 +1,346 @@
-[
-    {
-        "name": "In Framings",
-        "genre": "Emo",
-        "links": {
-            "Bandcamp": "https://inframings.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/inframings/"
+{
+    "artists": [
+        {
+            "name": "In Framings",
+            "members": ["aakaash-rohra", "valentina-gheorghe", "harjosh-virdi", "jacob-friesen"],
+            "genre": "Emo",
+            "links": {
+                "Bandcamp": "https://inframings.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/inframings/"
+            },
+            "releases": [
+                {
+                    "title": "Painted Over Portraits",
+                    "type": "EP",
+                    "year": 2025,
+                    "cover": "/covers/in-framings_painted-over-portraits.jpg",
+                    "bandcamp": "https://inframings.bandcamp.com/album/painted-over-portraits"
+                },
+                {
+                    "title": "Hands to Hold",
+                    "type": "Single",
+                    "year": 2025,
+                    "cover": "/covers/in-framings_hands-to-hold.jpg",
+                    "bandcamp": "https://inframings.bandcamp.com/track/hands-to-hold"
+                },
+                {
+                    "title": "Resolution",
+                    "type": "Single",
+                    "year": 2025,
+                    "cover": "/covers/in-framings_resolution.jpg",
+                    "bandcamp": "https://inframings.bandcamp.com/track/resolution"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "Painted Over Portraits",
-                "type": "EP",
-                "year": 2025,
-                "cover": "/covers/in-framings_painted-over-portraits.jpg",
-                "bandcamp": "https://inframings.bandcamp.com/album/painted-over-portraits"
+        {
+            "name": "Derwin",
+            "members": ["aakaash-rohra", "dominic-le", "edward-krauland", "michael-harhay"],
+            "genre": "Emo/Garage Rock",
+            "links": {
+                "Instagram": "https://www.instagram.com/derwinsworld/"
             },
-            {
-                "title": "Hands to Hold",
-                "type": "Single",
-                "year": 2025,
-                "cover": "/covers/in-framings_hands-to-hold.jpg",
-                "bandcamp": "https://inframings.bandcamp.com/track/hands-to-hold"
-            },
-            {
-                "title": "Resolution",
-                "type": "Single",
-                "year": 2025,
-                "cover": "/covers/in-framings_resolution.jpg",
-                "bandcamp": "https://inframings.bandcamp.com/track/resolution"
-            }
-        ]
-    },
-    {
-        "name": "Derwin",
-        "genre": "Emo/Garage Rock",
-        "links": {
-            "Instagram": "https://www.instagram.com/derwinsworld/"
+            "releases": [
+                {
+                    "title": "Tendon",
+                    "type": "EP",
+                    "year": 2024,
+                    "cover": "/covers/derwin_tendon.jpg",
+                    "bandcamp": "https://mechayuri.bandcamp.com/album/tendon"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "Tendon",
-                "type": "EP",
-                "year": 2024,
-                "cover": "/covers/derwin_tendon.jpg",
-                "bandcamp": "https://mechayuri.bandcamp.com/album/tendon"
-            }
-        ]
-    },
-    {
-        "name": "Robert Street Demos",
-        "genre": "Indie Folk",
-        "links": {
-            "Bandcamp": "https://robertstreetdemos.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/aakrohra/"
+        {
+            "name": "Robert Street Demos",
+            "members": ["aakaash-rohra"],
+            "genre": "Indie Folk",
+            "links": {
+                "Bandcamp": "https://robertstreetdemos.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/aakrohra/"
+            },
+            "releases": [
+                {
+                    "title": "Ornaments",
+                    "type": "LP",
+                    "year": 2026,
+                    "cover": "/covers/robert-street-demos_ornaments.jpg",
+                    "bandcamp": "https://robertstreetdemos.bandcamp.com/album/ornaments"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "Ornaments",
-                "type": "LP",
-                "year": 2026,
-                "cover": "/covers/robert-street-demos_ornaments.jpg",
-                "bandcamp": "https://robertstreetdemos.bandcamp.com/album/ornaments"
-            }
-        ]
-    },
-    {
-        "name": "Death Punchies",
-        "genre": "Pop Rock/Slacker Rock",
-        "links": {
-            "Bandcamp": "https://mechayuri.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/death_punchies/"
+        {
+            "name": "Death Punchies",
+            "members": ["thomas-chan", "jonah-page", "matthew-pi", "roberto-castillo", "vincent-crawford"],
+            "genre": "Pop Rock/Slacker Rock",
+            "links": {
+                "Bandcamp": "https://mechayuri.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/death_punchies/"
+            },
+            "releases": [
+                {
+                    "title": "Friend Reset",
+                    "type": "EP",
+                    "year": 2013,
+                    "cover": "/covers/death-punchies_friend-reset.jpg",
+                    "bandcamp": "https://mechayuri.bandcamp.com/album/friend-reset"
+                },
+                {
+                    "title": "Goodnight, Airport",
+                    "type": "LP",
+                    "year": 2017,
+                    "cover": "/covers/death-punchies_goodnight-airport.jpg",
+                    "bandcamp": "https://mechayuri.bandcamp.com/album/goodnight-airport"
+                },
+                {
+                    "title": "Songs For Yutes",
+                    "type": "EP",
+                    "year": 2018,
+                    "cover": "/covers/death-punchies_songs-for-yutes.jpg",
+                    "bandcamp": "https://mechayuri.bandcamp.com/album/songs-for-yutes"
+                },
+                {
+                    "title": "Songs For Yutes 2",
+                    "type": "LP",
+                    "year": 2021,
+                    "cover": "/covers/death-punchies_songs-for-yutes-2.jpg",
+                    "bandcamp": "https://mechayuri.bandcamp.com/album/songs-for-yutes-2"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "Friend Reset",
-                "type": "EP",
-                "year": 2013,
-                "cover": "/covers/death-punchies_friend-reset.jpg",
-                "bandcamp": "https://mechayuri.bandcamp.com/album/friend-reset"
-            },
-            {
-                "title": "Goodnight, Airport",
-                "type": "LP",
-                "year": 2017,
-                "cover": "/covers/death-punchies_goodnight-airport.jpg",
-                "bandcamp": "https://mechayuri.bandcamp.com/album/goodnight-airport"
-            },
-            {
-                "title": "Songs For Yutes",
-                "type": "EP",
-                "year": 2018,
-                "cover": "/covers/death-punchies_songs-for-yutes.jpg",
-                "bandcamp": "https://mechayuri.bandcamp.com/album/songs-for-yutes"
-            },
-            {
-                "title": "Songs For Yutes 2",
-                "type": "LP",
-                "year": 2021,
-                "cover": "/covers/death-punchies_songs-for-yutes-2.jpg",
-                "bandcamp": "https://mechayuri.bandcamp.com/album/songs-for-yutes-2"
-            }
-        ]
-    },
-    {
-        "name": "mache (Tiger Tag)",
-        "genre": "New Wave/Dance Punk/Indie Rock",
-        "releases": []
-    },
-    {
-        "name": "bit depth",
-        "genre": "Indie Rock/Emo",
-        "links": {
-            "Bandcamp": "https://bitdepth.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/bitdepthh/"
+        {
+            "name": "mache (Tiger Tag)",
+            "members": ["ethan-seet", "aakaash-rohra", "ben-robinson", "callan-robinson", "lee-rosensweet", "mark-nell", "sean-parker"],
+            "genre": "New Wave/Dance Punk/Indie Rock",
+            "releases": []
         },
-        "releases": [
-            {
-                "title": "bit depth 64",
-                "type": "LP",
-                "year": 2022,
-                "cover": "/covers/bit-depth_bit-depth-64.jpg",
-                "bandcamp": "https://bitdepth.bandcamp.com/album/bit-depth-64"
+        {
+            "name": "bit depth",
+            "members": ["arps", "dominic-le", "michael-harhay", "edward-krauland"],
+            "genre": "Indie Rock/Emo",
+            "links": {
+                "Bandcamp": "https://bitdepth.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/bitdepthh/"
             },
-            {
-                "title": "bit depth adventures",
-                "type": "EP",
-                "year": 2023,
-                "cover": "/covers/bit-depth_bit-depth-adventures.jpg",
-                "bandcamp": "https://bitdepth.bandcamp.com/album/bit-depth-adventures"
-            },
-            {
-                "title": "herdbound",
-                "type": "LP",
-                "year": 2024,
-                "cover": "/covers/bit-depth_herdbound.jpg",
-                "bandcamp": "https://bitdepth.bandcamp.com/album/herdbound"
-            },
-            {
-                "title": "Venison",
-                "type": "Single",
-                "year": 2026,
-                "cover": "/covers/bit-depth_venison.jpg",
-                "bandcamp": "https://bitdepth.bandcamp.com/track/venison-single"
-            }
-        ]
-    },
-    {
-        "name": "The Moonlight Circus",
-        "genre": "Psych Rock/Art Rock",
-        "links": {
-            "Bandcamp": "https://themoonlightcircus.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/themoonlightcircusband/"
+            "releases": [
+                {
+                    "title": "bit depth 64",
+                    "type": "LP",
+                    "year": 2022,
+                    "cover": "/covers/bit-depth_bit-depth-64.jpg",
+                    "bandcamp": "https://bitdepth.bandcamp.com/album/bit-depth-64"
+                },
+                {
+                    "title": "bit depth adventures",
+                    "type": "EP",
+                    "year": 2023,
+                    "cover": "/covers/bit-depth_bit-depth-adventures.jpg",
+                    "bandcamp": "https://bitdepth.bandcamp.com/album/bit-depth-adventures"
+                },
+                {
+                    "title": "herdbound",
+                    "type": "LP",
+                    "year": 2024,
+                    "cover": "/covers/bit-depth_herdbound.jpg",
+                    "bandcamp": "https://bitdepth.bandcamp.com/album/herdbound"
+                },
+                {
+                    "title": "Venison",
+                    "type": "Single",
+                    "year": 2026,
+                    "cover": "/covers/bit-depth_venison.jpg",
+                    "bandcamp": "https://bitdepth.bandcamp.com/track/venison-single"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "The Boar Song EP",
-                "type": "EP",
-                "year": 2024,
-                "cover": "/covers/the-moonlight-circus_the-boar-song-ep.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/album/the-boar-song-ep"
+        {
+            "name": "The Moonlight Circus",
+            "members": ["marcus-aiello", "kalan-bridgeman", "zachary-johnston", "damon-wilson"],
+            "genre": "Psych Rock/Art Rock",
+            "links": {
+                "Bandcamp": "https://themoonlightcircus.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/themoonlightcircusband/"
             },
-            {
-                "title": "The Boar Song",
-                "type": "Single",
-                "year": 2024,
-                "cover": "/covers/the-moonlight-circus_the-boar-song.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/the-boar-song"
-            },
-            {
-                "title": "Night Bus",
-                "type": "Single",
-                "year": 2025,
-                "cover": "/covers/the-moonlight-circus_night-bus.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/night-bus"
-            },
-            {
-                "title": "Under Moonlight",
-                "type": "LP",
-                "year": 2025,
-                "cover": "/covers/the-moonlight-circus_under-moonlight.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/album/under-moonlight"
-            },
-            {
-                "title": "Good Dream",
-                "type": "Single",
-                "year": 2025,
-                "cover": "/covers/the-moonlight-circus_good-dream.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/good-dream"
-            },
-            {
-                "title": "Crying",
-                "type": "Single",
-                "year": 2025,
-                "cover": "/covers/the-moonlight-circus_crying.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/crying-2"
-            },
-            {
-                "title": "Your Heart <3",
-                "type": "Single",
-                "year": 2026,
-                "cover": "/covers/the-moonlight-circus_your-heart.jpg",
-                "bandcamp": "https://themoonlightcircus.bandcamp.com/track/your-heart-3"
-            }
-        ]
-    },
-    {
-        "name": "prom night massacre",
-        "genre": "Bedroom Pop",
-        "links": {
-            "Bandcamp": "https://promnightmassacre.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/promnightmassacre/"
+            "releases": [
+                {
+                    "title": "The Boar Song EP",
+                    "type": "EP",
+                    "year": 2024,
+                    "cover": "/covers/the-moonlight-circus_the-boar-song-ep.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/album/the-boar-song-ep"
+                },
+                {
+                    "title": "The Boar Song",
+                    "type": "Single",
+                    "year": 2024,
+                    "cover": "/covers/the-moonlight-circus_the-boar-song.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/track/the-boar-song"
+                },
+                {
+                    "title": "Night Bus",
+                    "type": "Single",
+                    "year": 2025,
+                    "cover": "/covers/the-moonlight-circus_night-bus.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/track/night-bus"
+                },
+                {
+                    "title": "Under Moonlight",
+                    "type": "LP",
+                    "year": 2025,
+                    "cover": "/covers/the-moonlight-circus_under-moonlight.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/album/under-moonlight"
+                },
+                {
+                    "title": "Good Dream",
+                    "type": "Single",
+                    "year": 2025,
+                    "cover": "/covers/the-moonlight-circus_good-dream.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/track/good-dream"
+                },
+                {
+                    "title": "Crying",
+                    "type": "Single",
+                    "year": 2025,
+                    "cover": "/covers/the-moonlight-circus_crying.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/track/crying-2"
+                },
+                {
+                    "title": "Your Heart <3",
+                    "type": "Single",
+                    "year": 2026,
+                    "cover": "/covers/the-moonlight-circus_your-heart.jpg",
+                    "bandcamp": "https://themoonlightcircus.bandcamp.com/track/your-heart-3"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "The virgin suicides",
-                "type": "Single",
-                "year": 2024,
-                "cover": "/covers/prom-night-massacre_the-virgin-suicides.jpg",
-                "bandcamp": "https://promnightmassacre.bandcamp.com/track/the-virgin-suicides"
+        {
+            "name": "prom night massacre",
+            "members": ["vincent-crawford"],
+            "genre": "Bedroom Pop",
+            "links": {
+                "Bandcamp": "https://promnightmassacre.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/promnightmassacre/"
             },
-            {
-                "title": "l8ly",
-                "type": "EP",
-                "year": 2024,
-                "cover": "/covers/prom-night-massacre_l8ly.jpg",
-                "bandcamp": "https://promnightmassacre.bandcamp.com/album/l8ly"
-            },
-            {
-                "title": "I can't hold on to anything",
-                "type": "LP",
-                "year": 2025,
-                "cover": "/covers/prom-night-massacre_i-cant-hold-on-to-anything.jpg",
-                "bandcamp": "https://promnightmassacre.bandcamp.com/album/i-cant-hold-on-to-anything"
-            },
-            {
-                "title": "My diary 2",
-                "type": "LP",
-                "year": 2025,
-                "cover": "/covers/prom-night-massacre_my-diary-2.jpg",
-                "bandcamp": "https://promnightmassacre.bandcamp.com/album/my-diary-2"
-            }
-        ]
-    },
-    {
-        "name": "Takoma",
-        "genre": "Shoegaze",
-        "links": {
-            "Bandcamp": "https://takomasound.bandcamp.com/",
-            "Instagram": "https://www.instagram.com/takomaband/"
+            "releases": [
+                {
+                    "title": "The virgin suicides",
+                    "type": "Single",
+                    "year": 2024,
+                    "cover": "/covers/prom-night-massacre_the-virgin-suicides.jpg",
+                    "bandcamp": "https://promnightmassacre.bandcamp.com/track/the-virgin-suicides"
+                },
+                {
+                    "title": "l8ly",
+                    "type": "EP",
+                    "year": 2024,
+                    "cover": "/covers/prom-night-massacre_l8ly.jpg",
+                    "bandcamp": "https://promnightmassacre.bandcamp.com/album/l8ly"
+                },
+                {
+                    "title": "I can't hold on to anything",
+                    "type": "LP",
+                    "year": 2025,
+                    "cover": "/covers/prom-night-massacre_i-cant-hold-on-to-anything.jpg",
+                    "bandcamp": "https://promnightmassacre.bandcamp.com/album/i-cant-hold-on-to-anything"
+                },
+                {
+                    "title": "My diary 2",
+                    "type": "LP",
+                    "year": 2025,
+                    "cover": "/covers/prom-night-massacre_my-diary-2.jpg",
+                    "bandcamp": "https://promnightmassacre.bandcamp.com/album/my-diary-2"
+                }
+            ]
         },
-        "releases": [
-            {
-                "title": "The Sky and the Ground",
-                "type": "LP",
-                "year": 2026,
-                "cover": "/covers/takoma_the-sky-and-the-ground.jpg",
-                "bandcamp": "https://takomasound.bandcamp.com/album/the-sky-and-the-ground"
-            }
-        ]
-    }
-]
+        {
+            "name": "Takoma",
+            "members": ["edward-krauland"],
+            "genre": "Shoegaze",
+            "links": {
+                "Bandcamp": "https://takomasound.bandcamp.com/",
+                "Instagram": "https://www.instagram.com/takomaband/"
+            },
+            "releases": [
+                {
+                    "title": "The Sky and the Ground",
+                    "type": "LP",
+                    "year": 2026,
+                    "cover": "/covers/takoma_the-sky-and-the-ground.jpg",
+                    "bandcamp": "https://takomasound.bandcamp.com/album/the-sky-and-the-ground"
+                }
+            ]
+        },
+        {
+            "name": "The Common Turns",
+            "members": ["marcus-aiello", "ben-robinson", "jonah-page", "mark-nell"],
+            "genre": "Pop Rock/Doo-wop",
+            "releases": []
+        },
+        {
+            "name": "Buckley",
+            "members": ["jonah-page"],
+            "genre": "Hyperpop",
+            "releases": []
+        },
+        {
+            "name": "Chirico",
+            "members": ["marcus-aiello", "jonah-page", "hayden-zahary"],
+            "genre": "Pop Rock",
+            "links": {
+                "Instagram": "https://www.instagram.com/chiricogroup/"
+            },
+            "releases": []
+        },
+        {
+            "name": "Corrados",
+            "members": ["ben-robinson", "callan-robinson"],
+            "genre": "Twang",
+            "links": {
+                "Instagram": "https://www.instagram.com/thecorradoss/"
+            },
+            "releases": []
+        },
+        {
+            "name": "DJ Dinosaurus",
+            "members": ["dominic-le"],
+            "genre": "Acoustic",
+            "links": {
+                "Instagram": "https://www.instagram.com/tomatoreasoning/"
+            },
+            "releases": []
+        },
+        {
+            "name": "Pickpocket",
+            "members": ["mark-nell"],
+            "genre": "Math Rock/Indie Rock",
+            "links": {
+                "Instagram": "https://www.instagram.com/pickpocket.band/"
+            },
+            "releases": []
+        }
+    ],
+    "people": [
+        { "name": "Aakaash Rohra", "slug": "aakaash-rohra" },
+        { "name": "Valentina Gheorghe", "slug": "valentina-gheorghe" },
+        { "name": "Dominic Le", "slug": "dominic-le" },
+        { "name": "Edward Krauland", "slug": "edward-krauland" },
+        { "name": "Michael Harhay", "slug": "michael-harhay" },
+        { "name": "Harjosh Virdi", "slug": "harjosh-virdi" },
+        { "name": "Jacob Friesen", "slug": "jacob-friesen" },
+        { "name": "Thomas Chan", "slug": "thomas-chan" },
+        { "name": "Jonah Page", "slug": "jonah-page" },
+        { "name": "Matthew Pi", "slug": "matthew-pi" },
+        { "name": "Roberto Castillo", "slug": "roberto-castillo" },
+        { "name": "Vincent Crawford", "slug": "vincent-crawford" },
+        { "name": "Ethan Seet", "slug": "ethan-seet" },
+        { "name": "Ben Robinson", "slug": "ben-robinson" },
+        { "name": "Callan Robinson", "slug": "callan-robinson" },
+        { "name": "Lee Rosensweet", "slug": "lee-rosensweet" },
+        { "name": "Mark Nell", "slug": "mark-nell" },
+        { "name": "Sean Parker", "slug": "sean-parker" },
+        { "name": "Arps", "slug": "arps" },
+        { "name": "Marcus Aiello", "slug": "marcus-aiello" },
+        { "name": "Kalan Bridgeman", "slug": "kalan-bridgeman" },
+        { "name": "Zachary Johnston", "slug": "zachary-johnston" },
+        { "name": "Damon Wilson", "slug": "damon-wilson" },
+        { "name": "Hayden Zahary", "slug": "hayden-zahary" }
+    ]
+}
