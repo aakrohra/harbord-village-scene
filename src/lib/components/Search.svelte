@@ -14,16 +14,16 @@
         query.trim() === ''
             ? { artists: [], people: [], releases: [] }
             : {
-                artists: data.artists.filter((a) =>
-                    a.name.toLowerCase().includes(query.toLowerCase())
-                ),
-                people: data.people.filter((p) =>
-                    p.name.toLowerCase().includes(query.toLowerCase())
-                ),
-                releases: allReleases.filter((r) =>
-                    r.title.toLowerCase().includes(query.toLowerCase())
-                )
-                }
+                artists: data.artists
+                .filter((a) => a.name.toLowerCase().includes(query.toLowerCase()))
+                .sort((a, b) => a.name.localeCompare(b.name)),
+                people: data.people
+                .filter((p) => p.name.toLowerCase().includes(query.toLowerCase()))
+                .sort((a, b) => a.name.localeCompare(b.name)),
+                releases: allReleases
+                .filter((r) => r.title.toLowerCase().includes(query.toLowerCase()))
+                .sort((a, b) => a.title.localeCompare(b.title))
+            }
     );
 
     $effect(() => {

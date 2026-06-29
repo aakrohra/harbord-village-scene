@@ -6,8 +6,9 @@
     import data from '$lib/data/data.json';
     import ReleaseCard from '$lib/components/ReleaseCard.svelte';
     import { base } from '$app/paths';
+    import { goto } from '$app/navigation';
     import Search from '$lib/components/Search.svelte';
-    import { allReleases, slug } from '$lib/utils';
+    import { allReleases, slug, randomArtist } from '$lib/utils';
 
     let matchedReleases = $state<typeof allReleases>([]);
 
@@ -17,6 +18,8 @@
 <h1>harbord village 2026</h1>
 
 <p class="p-element">Toronto's <span>harbord village music scene</span>, active since 2023. {data.artists.length} artists and {data.people.length} people.</p>
+
+<button onclick={() => goto(`${base}/artists/${slug(randomArtist().name)}`)}>random artist</button>
 
 <Search bind:isSearching={searchActive} bind:matchedReleases />
 

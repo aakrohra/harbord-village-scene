@@ -27,3 +27,13 @@ a {
 .p-element {
     margin-bottom: 1rem;
 }
+
+button {
+    color: darkgreen;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
