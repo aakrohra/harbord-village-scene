@@ -48,8 +48,21 @@
     {/each}
 </div>
 
+{#if !searchActive}
+    <footer>
+        <p>created by <a href="{base}/people/aakaash-rohra">Aakaash Rohra</a></p>
+        <p>see also: <a target="_blank" href="https://rateyourmusic.com/list/mike_n_ike213/new-ontario-scene/">"New Ontario Scene"</a> by <a href="{base}/people/michael-harhay">Michael Harhay</a></p>
+    </footer>
+{/if}
+
 <style>
     span {
         font-weight: 1000;
+    }
+    footer {
+        margin-top: 1rem;
+        padding: 0.5rem;
+        height: 100%;
+        border: solid 1px;
     }
 </style>
